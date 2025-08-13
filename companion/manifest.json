@@ -1,26 +1,15 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
-	"version": "0.0.0",
-	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
-	"maintainers": [
-		{
-			"name": "Your name",
-			"email": "Your email"
-		}
-	],
-	"runtime": {
-		"type": "node22",
-		"api": "nodejs-ipc",
-		"apiVersion": "0.0.0",
-		"entrypoint": "../main.js"
-	},
-	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+  "id": "jbenererben-p20-layer-selection",
+  "name": "P20 Layer Selection",
+  "shortname": "P20 PVW",
+  "description": "Pixelhue P20 için PVW odaklı layer seçimi: seçili screen’in PVW layer’larını dinamik gösterir ve onlara input yönlendirir.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "main.js",
+  "manufacturer": "Pixelhue",
+  "product": "P20",
+  "homepage": "https://github.com/jbenererben/P20-Layer-Selection",
+  "repository": "https://github.com/jbenererben/P20-Layer-Selection",
+  "bugs": "https://github.com/jbenererben/P20-Layer-Selection/issues",
+  "keywords": ["pixelhue", "p20", "pvw", "layer", "pixelflow"]
 }

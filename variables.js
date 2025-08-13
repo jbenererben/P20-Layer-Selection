@@ -1,4 +1,3 @@
-// variables.js
 export function getVariables(_self) {
   return [
     { variableId: 'selected_screen', name: 'Selected screen' },

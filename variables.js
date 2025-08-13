@@ -1,7 +1,7 @@
-module.exports = function (self) {
-	self.setVariableDefinitions([
-		{ variableId: 'variable1', name: 'My first variable' },
-		{ variableId: 'variable2', name: 'My second variable' },
-		{ variableId: 'variable3', name: 'Another variable' },
-	])
+// variables.js
+export function getVariables(_self) {
+  return [
+    { variableId: 'selected_screen', name: 'Selected screen' },
+    { variableId: 'pvw_layers_count', name: 'PVW layer count (selected screen)' },
+  ]
 }

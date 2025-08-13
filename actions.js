@@ -1,4 +1,3 @@
-// actions.js
 export function getActions(self) {
   return {
     selectScreen: {

@@ -1,4 +1,3 @@
-// feedbacks.js
 export function getFeedbacks(self) {
   return {
     pvwLayerCountEquals: {

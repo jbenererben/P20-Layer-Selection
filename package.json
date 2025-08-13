@@ -1,18 +1,18 @@
 {
-  "name": "P20-Layer-Selection",
+  "name": "p20-layer-selection",
   "version": "0.1.0",
   "main": "main.js",
   "scripts": {
     "format": "prettier -w .",
     "package": "companion-module-build",
-    "build": "node ./node_modules/@companion-module/tools/build.mjs",
-    "watch": "node ./node_modules/@companion-module/tools/build.mjs --watch",
+    "build": "companion-module-build",
+    "watch": "companion-module-build --watch",
     "lint": "eslint ."
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbenererben/P20-Layer-Selection/tree/main.git"
+    "url": "git+https://github.com/jbenererben/P20-Layer-Selection.git"
   },
   "dependencies": {
     "@companion-module/base": "~1.11.3"
